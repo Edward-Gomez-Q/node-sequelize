@@ -1,5 +1,7 @@
 const { Pedido } = require('../models');
 
+const { Cliente } = require('../models');
+
 //Crear un nuevo pedido
 exports.crearPedido = async (req, res) => {
     try{
